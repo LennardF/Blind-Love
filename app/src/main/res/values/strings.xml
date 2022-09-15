@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BlindLove</string>
+    <string name="registrieren">Registrieren</string>
+    <string name="login">Login</string>
+    <string name="passwort">Passwort</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="blind_love">Blind Love</string>
+    <string name="frage">Frage</string>
+    <string name="antwort">Antwort</string>
+    <string name="fertig">Fertig</string>
+    <string name="ausw_hlen">Auswählen</string>
+    <string name="_00_00_0000">00.00.0000</string>
+</resources>
