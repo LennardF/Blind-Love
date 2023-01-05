@@ -21,7 +21,7 @@
         android:animateLayoutChanges="false"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
-        app:cardBackgroundColor="@color/white"
+        app:cardBackgroundColor="@color/purple_700"
         app:cardCornerRadius="30dp">
 
         <LinearLayout
@@ -33,9 +33,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="@string/login"
                 android:textSize="20sp"
-                android:gravity="center"/>
+                android:textStyle="bold" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -51,7 +52,8 @@
                     android:hint="@string/e_mail"
                     android:inputType="textCapWords"
                     android:textColor="#363A43"
-                    android:textColorHint="#7A8089"/>
+                    android:textColorHint="#7A8089"
+                    android:background="@color/white"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -69,7 +71,8 @@
                     android:hint="@string/passwort"
                     android:inputType="textPassword"
                     android:textColor="#363A43"
-                    android:textColorHint="#7A8089"/>
+                    android:textColorHint="#7A8089"
+                    android:background="@color/white"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 

@@ -11,23 +11,29 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
         android:text="@string/registrieren"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name"
-        android:paddingTop="40dp"/>
+        android:hint="@string/name"
+        android:paddingTop="40dp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:autofillHints="name"/>
 
     <EditText
         android:id="@+id/nachname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nachname"
-        android:paddingTop="10dp"/>
-
+        android:hint="@string/nachname"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:autofillHints="nachname"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,7 +56,8 @@
             android:id="@+id/birthdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ausw_hlen" />
+            android:text="@string/ausw_hlen"
+            app:cornerRadius="50dp" />
 
     </LinearLayout>
 
@@ -59,27 +66,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textEmailAddress"
         android:hint="@string/e_mail"
-        android:paddingTop="10dp"/>
+        android:inputType="textEmailAddress"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:autofillHints="emailAddress"/>
 
     <EditText
         android:id="@+id/password1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPassword"
         android:hint="@string/passwort"
-        android:paddingTop="10dp"/>
+        android:inputType="textPassword"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:autofillHints="password"/>
 
     <EditText
         android:id="@+id/password2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPassword"
         android:hint="@string/passwort"
-        android:paddingTop="10dp"/>
+        android:inputType="textPassword"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:autofillHints="password"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -91,8 +104,9 @@
             android:id="@+id/next"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Zu den Fragen!"
-            android:gravity="center" />
+            android:gravity="center"
+            android:text="@string/zu_den_fragen"
+            app:cornerRadius="50dp" />
 
     </LinearLayout>
 

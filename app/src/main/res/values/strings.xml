@@ -10,4 +10,7 @@
     <string name="fertig">Fertig</string>
     <string name="ausw_hlen">Auswählen</string>
     <string name="_00_00_0000">00.00.0000</string>
+    <string name="nachname">Nachname</string>
+    <string name="name">Name</string>
+    <string name="zu_den_fragen">Zu den Fragen!</string>
 </resources>
